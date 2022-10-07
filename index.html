@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function toggle1()
+        {
+            var x=document.getElementById("view_table");
+            if(x.style.display === "none")
+            {
+                x.style.display="flex";
+            }
+            else
+            {
+                x.style.display="none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="heder">
+        <h1 id="college">EXCEL UNIVERSITY</h1>
+    </div>
+    <div class="bdy">
+        <!-- <h2 id="bdy_title">Attendence Details</h2><br> -->
+        <form action="" class="attendence_form">
+            <label for="cars"><h2 id="bdy_title">Student Attendence Details</h2><br></label>
+            
+            <!-- <input type="submit" value="View" id="submt" onclick="toggle1()"><br><br> -->
+            <!-- <table id="view_table">
+                <tr>
+                    <th>Thdhg</th>
+                    <th>jkjk</th>
+                </tr>
+                <tr>
+                    <th>Thdhg</th>
+                    <th>jkjk</th>
+                </tr>
+            </table> -->
+        </form>
+        <br>    
+    </div>
+    <div id="sbmt">
+        <input type="submit" value="View" id="submt" onclick="toggle1()"><br><br>
+    </div>
+    <div id="view_table">
+        <table id="table1">
+            <tr>
+                    <th><a href="faculty.html">FACULTY</a></th>
+                    <th><a href="student.html">STUDENT</a></th>
+                    
+                  </tr>
+                
+            </table>
+    </div>
+    <div class="ftr">
+        <h1><a href="#">HOME</a></h1>
+    </div>
+</body>
+</html>

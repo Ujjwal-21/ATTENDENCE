@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE3501</title>
+    <link rel="stylesheet" href="MAT4001.css">
+    <script>
+        function toggle1()
+        {
+            var x=document.getElementById("view_table");
+            if(x.style.display === "none")
+            {
+                x.style.display="flex";
+            }
+            else
+            {
+                x.style.display="none";
+            }
+        }
+        function FwriteMsg()
+        {
+            
+            
+            alert("Successfully Attendence Updated !!");
+            window.location.replace("CSE3501_VIEW.html");
+        }
+    </script>
+</head>
+<body>
+    <div class="heder">
+        <h1 id="college">EXCELLENCE UNIVERSITY</h1>
+    </div>
+    <div class="bdy">
+        <form action="" class="attendence_form">
+            <label for="cars"><h2 id="bdy_title">Student Attendence Form (FACULTY)</h2><br>CSE3501</label>
+        </form>
+        <br>    
+    </div>
+    <h2><a href="MAT4001_VIEW.html">View Attendence</a></h2>
+    <div id="sbmt">
+        <input type="submit" value="View" id="submt" onclick="toggle1()"><br><br>
+    </div>
+    <div id="view_table">
+       
+        <table id="table1">
+            <tr>
+                    
+                    <th>USER ID</th>
+                    <th>Name</th>
+                    <th>Status</th>
+            </tr>
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+
+             </tr>   
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr>  
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr>  
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr>  
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr>  
+             <tr>
+                <td>20STU1234</td>
+                <td>PANKAJ TRIPATHI</td>
+                <td>
+                    <select name='".$attnd["USERID"]."' >
+                        <option value='1' ><p id='present'>Present</p></option>
+                        <option value='0'><p>Absent</p></option>
+                    </select>
+                </td>
+             </tr> 
+                
+            <tr>
+            <th colspan="4" ><input type="submit" id="submt" name="submit1" value="Submit"  style="align-text: center;" onclick="FwriteMsg()"> <br></th>
+            </tr>
+        </table>  
+        
+            <br> 
+            <!-- </table> -->
+            <!-- </form> -->
+            <!-- </form> -->
+    </div>
+
+    <div class="ftr">
+        <h1><a href="index.html">HOME</a></h1>
+    </div>
+</body>
+</html>
