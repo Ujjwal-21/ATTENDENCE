@@ -13,6 +13,7 @@ https://kind-moss-0f196fa1e.2.azurestaticapps.net
  - [AZURE STATIC WEB APP]
 <br>
 #Here Are Some Screenshots Of The Website
+
 ![Screenshot 2022-10-09 at 8 01 12 AM](https://user-images.githubusercontent.com/88342385/194735196-7f5a29d8-be49-497d-bd17-0470b1a3d4dd.png)
 
 
